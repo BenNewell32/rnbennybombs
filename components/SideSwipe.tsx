@@ -8,7 +8,7 @@ type UserProps = {
 export default function SideSwipe(props: UserProps) {
   return (
     <View style={styles.container}>
-      <Text>{props.user}</Text>
+      <Text>user: {props.user}</Text>
       <PagerView style={styles.container} initialPage={0}>
         <View style={styles.page} key="1">
           <CoachCategories coach={"Yana Bear"} />
